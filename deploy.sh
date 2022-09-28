@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
-sam deploy --stack-name=MY_STACK_NAME \
---s3-prefix=MY_S3_PREFIX \
---parameter-overrides='SourceBucket="MY_SOURCE_BUCKET"' \
---s3-bucket=MY_SAM_ZIP_BUCKET \
---region='MY_REGION' \
---capabilities='CAPABILITY_IAM' \
---profile='MY_PROFILE'
+sam deploy \
+--stack-name='aperitiiif-serverless-iiif' \
+--s3-prefix='aperitiiif-serverless-iiif' \
+--parameter-overrides='SourceBucket="aperitiiif-serverless-iiif-source-images"' \
+--s3-bucket='aws-sam-cli-managed-default-samclisourcebucket-1er0it3bgmcdy' \
+--region='us-east-1' \
+--capabilities='CAPABILITY_IAM CAPABILITY_AUTO_EXPAND' \
+--profile='aperitiiif-sam-deploy'
