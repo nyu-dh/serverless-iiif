@@ -1,4 +1,4 @@
-# nyu-dss/serverless-iiif
+# middlicomp/serverless-iiif
 
 See: [Source README](https://github.com/samvera-labs/serverless-iiif#readme)
 
@@ -6,7 +6,7 @@ See: [Source README](https://github.com/samvera-labs/serverless-iiif#readme)
 ## Deploy
 
 ### Prerequisites
-- Have access to `aperitiiif-sam-deploy` credentials from NYU Web Hosting Bitwarden.
+- Have access to `aperitiiif-sam-deploy` credentials
 - Have AWS-CLI, SAM-CLI, and Docker installed.
 
 ### Steps
