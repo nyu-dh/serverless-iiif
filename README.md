@@ -1,4 +1,4 @@
-# nyu-dss/serverless-iiif
+# nyu-dh/serverless-iiif
 
 See: [Source README](https://github.com/samvera-labs/serverless-iiif#readme)
 
